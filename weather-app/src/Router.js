@@ -10,13 +10,13 @@ const BasicExample = () => (
     <div>
       <ul>
         <li><Link to="/">Weekly Forecast</Link></li>
-        <li><Link to="/day">Day</Link></li>
+        <li><Link to="/today">Day</Link></li>
       </ul>
 
       <hr/>
 
       <Route exact path="/" component={Weekly}/>
-      <Route path="/day" component={Daily}/>
+      <Route path="/to day" component={Daily}/>
     </div>
   </Router>
 )
