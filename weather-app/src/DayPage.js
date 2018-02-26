@@ -1,12 +1,14 @@
 import React from 'react'
+import Header from './Header'
 
+class HomePage extends React.Component {
+  render() {
+    return (
+      <div className='App'>
+        <Header title="Today's Forecast"/>
+      </div>
+    )
+  }
+}
 
-const Daily = () => (
-  <div>
-    <h2>Daily</h2>
-    <h3>Monday</h3>
-    <h3>Tuesday</h3>
-  </div>
-)
-
-export default Daily
+export default HomePage
